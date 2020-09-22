@@ -21,9 +21,11 @@ git commit -am '日志信息'
 ```
 git log
 # 查看文件不同
-git diff
-```
+git diff 版本id
+git diff head^^ //和上上个版本对比
 
+```
+>head是当前版本 ^上一个版本 以此类推
 #### 提交代码
 >把代码推送到git服务器，push
 >把代码从服务器签出，pull
